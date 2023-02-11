@@ -1,15 +1,28 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
-   
+
 }
 
-.navbar{
+.navbar {
     background-color: #1F2532;
-     
+
 }
-.nav-link{
-    color:#fff !important;
-     
+
+.nav-link {
+    color: #fff !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+.navbar-nav {
+    background-color: red;
+    text-align: right;
 }
  

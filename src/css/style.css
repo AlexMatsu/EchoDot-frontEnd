@@ -62,10 +62,10 @@ navbar
 /*------------------------------------------------------ 
 hero section
 ------------------------------------------------------ */
-section.hero {
+section.hero { 
     padding: 80px 0;
 }
- .text {
+section.hero .text {
     color: var(--white);
     font-weight: 400;
     font-size: 74px;
@@ -80,8 +80,21 @@ section.hero .textTwo {
     font-size: 64px;
     letter-spacing: -0.035em;  
 }
+section.hero .textThree {
+    color: var(--white);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 97px;
+    letter-spacing: -0.035em;
+    top
+
+}
 .buttons {
     padding-top: 69px;
+}
+section.hero .alexaSection{
+    margin-bottom: 100px !important;
+    
 }
 /*------------------------------------------------------ 
 setup section

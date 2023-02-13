@@ -15,6 +15,7 @@ color setup
     --navbar: #1F2532;
     --body: #1F2532;
     --radial: red;
+    --gray-1: #e5e6f0;
 
 }
 
@@ -74,9 +75,6 @@ section.hero {
     padding: 15px 0;
 }
 
-.head-line {
-    margin-top: 50px;
-}
 
 section.hero .text {
     color: var(--white);
@@ -105,7 +103,7 @@ section.hero .textThree {
     letter-spacing: -0.035em;
 }
 
-.buttons {
+.buttons-play {
     padding-top: 19px;
 }
 
@@ -117,7 +115,6 @@ section.setup .meet-content {
     background: radial-gradient(72.22% 491.8% at 0% 0%, #0E2944 0%, #04101C 76.51%);
     border-radius: 20px;
     padding: 56px 47px;
-    height: 315px;
     gap: 31px;
     display: flex;
     flex-direction: row;
@@ -125,17 +122,23 @@ section.setup .meet-content {
 
 }
 
-.meet-text .meet-text-two {
-    background:red !important;
+.meet-start {
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 50px;
+    letter-spacing: -0.035em;
+    width: 280px;
+
+}
+
+.meet-text .meet-text-end {
     font-weight: 600;
     font-size: 18px;
     line-height: 130.19%;
     letter-spacing: -0.035em;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    width: 387px
 }
- 
+
 
 /* ------------------------------------------------------ 
 information section
@@ -148,3 +151,65 @@ information section
 /*------------------------------------------------------ 
 responsive section
 ------------------------------------------------------*/
+@media (max-width: 576px) {
+
+    section.hero,
+    section.setup,
+    section.information {
+        text-align: center;
+    }
+
+    /*------------------------------------------------------ 
+    navbar
+    ------------------------------------------------------ */
+    .navbar {
+        padding: 20px 0;
+    }
+
+    .nav-link {
+        margin-left: 0;
+    }
+
+    /*------------------------------------------------------ 
+    hero section
+    ------------------------------------------------------ */
+    section.hero .text {
+        font-weight: 500;
+        font-size: 74px;
+
+    }
+
+    section.hero .textTwo {
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px !important;
+    }
+
+    section.hero .buttons-play {
+        position: relative;
+        top: 320px
+    }
+    section.hero .alexa-img{
+        position: relative;
+        bottom: 70px
+         
+    }
+
+    .buttons .btn {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .buttons .ms-3 {
+        margin-left: 0 !important;
+    }
+
+    /*------------------------------------------------------ 
+    Setup section
+    ------------------------------------------------------ */
+    section.setup {
+        padding: 50px 0;
+    }
+
+
+}

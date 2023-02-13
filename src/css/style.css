@@ -7,20 +7,27 @@ fonts setup
 color setup
 ------------------------------------------------------ */
 :root {
-    --primary: #0071E3;
+    --primary: #2f8be7;
     --primary-dark: #2045d6;
-    --echo:#05A9D0;
+    --echo: #05A9D0;
     --black: #010101;
     --white: #fff;
     --navbar: #1F2532;
     --body: #1F2532;
+    --radial: red;
 
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--body);
-   
+    color: var(--white);
+
+}
+
+.row {
+    padding: 0;
+    margin: 0;
 }
 
 /* ------------------------------------------------------ 
@@ -50,55 +57,85 @@ navbar
     padding: 32px 0;
     background-color: var(--navbar) !important;
 }
- 
-.nav-link{
+
+.nav-link {
     font-size: 16px;
     color: var(--white);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     background-color: var(--white);
 }
 
 /*------------------------------------------------------ 
 hero section
 ------------------------------------------------------ */
-section.hero { 
-    padding: 80px 0;
+section.hero {
+    padding: 15px 0;
 }
+
+.head-line {
+    margin-top: 50px;
+}
+
 section.hero .text {
     color: var(--white);
     font-weight: 400;
-    font-size: 74px;
-    line-height: 97px;
+    font-size: 72px;
+    line-height: 150px;
 }
-section.hero .echo{
+
+section.hero .echo {
     color: var(--echo);
 }
+
 section.hero .textTwo {
     color: var(--white);
     font-weight: 400;
     font-size: 64px;
-    letter-spacing: -0.035em;  
+    line-height: 57px !important;
+    letter-spacing: -0.035em;
 }
+
 section.hero .textThree {
     color: var(--white);
     text-decoration: none;
     font-size: 18px;
-    line-height: 97px;
+    line-height: 97px !important;
     letter-spacing: -0.035em;
-    top
+}
 
-}
 .buttons {
-    padding-top: 69px;
+    padding-top: 19px;
 }
-section.hero .alexaSection{
-    margin-bottom: 100px !important;
-    
-}
+
 /*------------------------------------------------------ 
 setup section
 ------------------------------------------------------*/
+section.setup .meet-content {
+
+    background: radial-gradient(72.22% 491.8% at 0% 0%, #0E2944 0%, #04101C 76.51%);
+    border-radius: 20px;
+    padding: 56px 47px;
+    height: 315px;
+    gap: 31px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.meet-text .meet-text-two {
+    background:red !important;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 130.19%;
+    letter-spacing: -0.035em;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+ 
 
 /* ------------------------------------------------------ 
 information section

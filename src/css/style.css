@@ -150,17 +150,26 @@ setup section
 /* ------------------------------------------------------ 
 information section
  ------------------------------------------------------*/
+ .comand-alexa{
+    
+    position: relative;
+    width: 316px;
+    height: 86px;
+    left: 533px;
+    top: 200px;
+ 
+    z-index: 1;
+    
+ }
 .house-alexa {
     filter: drop-shadow(0px 10px 15px #181429);
 }
-
 .stream-all {
 
     display: flex; 
     justify-content: center;
     align-items: center;
     gap: 80px;
-
 }
 
 /*------------------------------------------------------
@@ -196,6 +205,19 @@ section experencie
 .action-experencie p{
     color: #0BFCFA;
 }
+/*------------------------------------------------------
+section disover
+ ------------------------------------------------------ */
+.discover-alexa {
+    background: #2283e4;
+}
+.discover-alexa-img{
+    background-size:100% !important ;
+}
+
+
+
+
 /*------------------------------------------------------
  footer section
  ------------------------------------------------------ */

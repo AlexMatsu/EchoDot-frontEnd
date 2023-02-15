@@ -46,7 +46,7 @@ button
     background-color: var(--primary);
     font-size: 16px;
 }
-
+stream-alexa
 .btn-primary:hover {
     background-color: var(--primary-dark);
 }
@@ -145,8 +145,7 @@ section.setup .meet-content {
 information section
  ------------------------------------------------------*/
 .stream-alexa {
-    width: 1179px !important;
-     
+    
     
      
     

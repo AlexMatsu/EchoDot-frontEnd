@@ -23,7 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--body);
     color: var(--white);
-
+    
 }
 
 .row {
@@ -119,6 +119,7 @@ section.setup .meet-content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    
 
 }
 
@@ -131,19 +132,25 @@ section.setup .meet-content {
 
 }
 
-.meet-text .meet-text-end {
+.meet-text{
     font-weight: 600;
     font-size: 18px;
     line-height: 130.19%;
     letter-spacing: -0.035em;
-    width: 387px
+   
 }
 
 
 /* ------------------------------------------------------ 
 information section
  ------------------------------------------------------*/
-
+.stream-alexa {
+    width: 1179px !important;
+     
+    
+     
+    
+}
 /*------------------------------------------------------
  footer section
  ------------------------------------------------------ */

@@ -23,7 +23,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--body);
     color: var(--white);
-    
+
 }
 
 .row {
@@ -46,8 +46,8 @@ button
     background-color: var(--primary);
     font-size: 16px;
 }
-stream-alexa
-.btn-primary:hover {
+
+stream-alexa .btn-primary:hover {
     background-color: var(--primary-dark);
 }
 
@@ -110,42 +110,61 @@ section.hero .textThree {
 /*------------------------------------------------------ 
 setup section
 ------------------------------------------------------*/
-section.setup .meet-content {
+.meet-content {
 
     background: radial-gradient(72.22% 491.8% at 0% 0%, #0E2944 0%, #04101C 76.51%);
     border-radius: 20px;
-    padding: 56px 47px;
-    gap: 31px;
+    padding: 4%;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    
-
+    justify-content: space-between !important;
+    text-align: justify;
 }
 
 .meet-start {
+    display: flex; 
+    width:280px ; 
+    justify-content: center;
+     
+}
+
+.meet-start h1 { 
     font-weight: 600;
     font-size: 54px;
     line-height: 50px;
     letter-spacing: -0.035em;
-    width: 280px;
-
+     
 }
 
-.meet-text{
+.meet-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130.19%;
+    letter-spacing: -0.035em;
+}
+.meet-text-end {
     font-weight: 600;
     font-size: 18px;
     line-height: 130.19%;
     letter-spacing: -0.035em;
-   
 }
 
 
 /* ------------------------------------------------------ 
 information section
  ------------------------------------------------------*/
-.stream-alexa {    
+.house-alexa {
+    filter: drop-shadow(0px 10px 15px #181429);
 }
+
+.stream-all {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
 /*------------------------------------------------------
  footer section
  ------------------------------------------------------ */
@@ -191,10 +210,10 @@ responsive section
         position: relative;
         top: 320px
     }
-    section.hero .alexa-img{
+
+    section.hero .alexa-img {
         position: relative;
         bottom: 70px
-         
     }
 
     .buttons .btn {

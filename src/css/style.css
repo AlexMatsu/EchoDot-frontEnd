@@ -121,18 +121,16 @@ setup section
 }
 
 .meet-start {
-    display: flex; 
-    width:280px ; 
+    display: flex;
+    width: 280px;
     justify-content: center;
-     
 }
 
-.meet-start h1 { 
+.meet-start h1 {
     font-weight: 600;
     font-size: 54px;
     line-height: 50px;
     letter-spacing: -0.035em;
-     
 }
 
 .meet-text {
@@ -141,13 +139,13 @@ setup section
     line-height: 130.19%;
     letter-spacing: -0.035em;
 }
+
 .meet-text-end {
     font-weight: 600;
     font-size: 18px;
     line-height: 130.19%;
     letter-spacing: -0.035em;
 }
-
 
 /* ------------------------------------------------------ 
 information section
@@ -165,6 +163,38 @@ information section
 
 }
 
+/*------------------------------------------------------
+section experencie
+ ------------------------------------------------------ */
+.experencie{
+    display: flex;
+    justify-content: center;
+    
+} 
+.action-experencie {
+    background: radial-gradient(36.25% 36.25% at 50% 50%, rgba(0, 113, 227, 0.2) 29.26%, rgba(20, 24, 34, 0.2) 100%);
+    border-radius: 20px;
+    border: solid 1px #2f8be7;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 238px;
+    gap: 25px; 
+}
+
+.action-experencie h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.015em;
+}
+.action-experencie .experencie-day{
+    color: #05A9D0;    
+}
+.action-experencie p{
+    color: #0BFCFA;
+}
 /*------------------------------------------------------
  footer section
  ------------------------------------------------------ */

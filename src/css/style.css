@@ -156,10 +156,10 @@ information section
 
 .stream-all {
 
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 80px;
 
 }
 
@@ -169,7 +169,8 @@ section experencie
 .experencie{
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    height: 491px;  
 } 
 .action-experencie {
     background: radial-gradient(36.25% 36.25% at 50% 50%, rgba(0, 113, 227, 0.2) 29.26%, rgba(20, 24, 34, 0.2) 100%);

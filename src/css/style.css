@@ -16,6 +16,7 @@ color setup
     --body: #1F2532;
     --radial: red;
     --gray-1: #e5e6f0;
+    --discover: #04101C;
 
 }
 
@@ -150,23 +151,25 @@ setup section
 /* ------------------------------------------------------ 
 information section
  ------------------------------------------------------*/
- .comand-alexa{
-    
+.comand-alexa {
+
     position: relative;
     width: 316px;
     height: 86px;
     left: 433px;
     top: 200px;
- 
+
     z-index: 1;
-    
- }
+
+}
+
 .house-alexa {
     filter: drop-shadow(0px 10px 15px #181429);
 }
+
 .stream-all {
 
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 80px;
@@ -175,12 +178,13 @@ information section
 /*------------------------------------------------------
 section experencie
  ------------------------------------------------------ */
-.experencie{
+.experencie {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 491px;  
-} 
+    height: 491px;
+}
+
 .action-experencie {
     background: radial-gradient(36.25% 36.25% at 50% 50%, rgba(0, 113, 227, 0.2) 29.26%, rgba(20, 24, 34, 0.2) 100%);
     border-radius: 20px;
@@ -190,32 +194,59 @@ section experencie
     flex-direction: column;
     align-items: center;
     padding: 60px 238px;
-    gap: 25px; 
+    gap: 25px;
 }
 
-.action-experencie h1{
+.action-experencie h1 {
     font-weight: 600;
     font-size: 48px;
     line-height: 56px;
     letter-spacing: -0.015em;
 }
-.action-experencie .experencie-day{
-    color: #05A9D0;    
+
+.action-experencie .experencie-day {
+    color: #05A9D0;
 }
-.action-experencie p{
+
+.action-experencie p {
     color: #0BFCFA;
 }
+
 /*------------------------------------------------------
 section disover
  ------------------------------------------------------ */
-.discover-alexa {
-    background: #2283e4;
+.discover {
+    background: var(--discover);
 }
-.discover-alexa-img{
-    background-size:100% !important ;
+
+.title-discover {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.function-alexa h5 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.035em;
+    color: #0BFCFA;
+}
+
+.function-alexa p {
+    text-align: justify !important;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.035em;
 }
 
 
+
+
+/*------------------------------------------------------
+section detail
+ ------------------------------------------------------ */
 
 
 /*------------------------------------------------------

@@ -17,6 +17,7 @@ color setup
     --radial: red;
     --gray-1: #e5e6f0;
     --discover: #04101C;
+    --disc-title:#0BFCFA;
 
 }
 
@@ -188,7 +189,7 @@ section experencie
 .action-experencie {
     background: radial-gradient(36.25% 36.25% at 50% 50%, rgba(0, 113, 227, 0.2) 29.26%, rgba(20, 24, 34, 0.2) 100%);
     border-radius: 20px;
-    border: solid 1px #2f8be7;
+    border: solid 1px var(--echo);
     display: flex;
     position: relative;
     flex-direction: column;
@@ -205,36 +206,39 @@ section experencie
 }
 
 .action-experencie .experencie-day {
-    color: #05A9D0;
+    color:var(--echo);
 }
 
 .action-experencie p {
-    color: #0BFCFA;
+    color: var(--disc-title);
 }
 
 /*------------------------------------------------------
-section disover
+section discover
  ------------------------------------------------------ */
 .discover {
     background: var(--discover);
 }
-
-.title-discover {
+ 
+ 
+.discover-title p {
+    
+    margin-top: 50px;
     font-weight: 600;
     font-size: 36px;
     line-height: 42px;
 }
 
-.function-alexa h5 {
+ 
+.discover-action h5 {
     font-weight: 700;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: -0.035em;
-    color: #0BFCFA;
+    color: var(--disc-title);
 }
-
-.function-alexa p {
-    text-align: justify !important;
+.discover-action p {
+    width: 239px; 
     font-weight: 300;
     font-size: 14px;
     line-height: 16px;

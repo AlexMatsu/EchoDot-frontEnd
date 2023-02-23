@@ -52,6 +52,11 @@ button
 stream-alexa .btn-primary:hover {
     background-color: var(--primary-dark);
 }
+.btn-glass{
+    border:1px solid var(--disc-title);
+    color: var(--white);
+    font-size: 16px;
+}
 
 /*------------------------------------------------------ 
 navbar
@@ -245,18 +250,47 @@ section discover
     letter-spacing: -0.035em;
 }
 
-
-
-
+.button-glass {
+    margin: 0;
+    padding: 0; 
+}
 /*------------------------------------------------------
 section detail
  ------------------------------------------------------ */
-
-
+.detail-title {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.035em;
+}
+.detail-action h5{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.035em;
+    color: var(--disc-title);
+}
+.detail-action p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: -0.035em;
+    color: var(--white);
+   
+}
 /*------------------------------------------------------
  footer section
  ------------------------------------------------------ */
-
+.footer {
+    background-color: var(--discover) !important;
+    color: var(--white) !important;
+}
+.copyright{
+    color:var(--white);
+}
+.text-reset{
+    text-decoration: none;
+}
 /*------------------------------------------------------ 
 responsive section
 ------------------------------------------------------*/

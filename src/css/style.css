@@ -74,7 +74,9 @@ navbar
 .navbar-toggler {
     background-color: var(--white);
 }
-
+a:hover {
+        color:var(--primary) !important;
+}
 /*------------------------------------------------------ 
 hero section
 ------------------------------------------------------ */
@@ -112,6 +114,10 @@ section.hero .textThree {
 
 .buttons-play {
     padding-top: 19px;
+}
+.icon-play img:hover {
+    opacity: 0.1 !important; 	
+    
 }
 
 /*------------------------------------------------------ 

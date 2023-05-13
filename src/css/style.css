@@ -296,7 +296,12 @@ section detail
 }
 .text-reset{
     text-decoration: none;
+    
 }
+.text-uppercase{
+    width: 250px;
+}
+
 /*------------------------------------------------------ 
 responsive section
 ------------------------------------------------------*/

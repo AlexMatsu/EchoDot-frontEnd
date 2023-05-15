@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="src/css/style.css">
 
     <!-- javaScript -->
-    <script src="src/js/scripts.js"></script>
+    <script src="/echoDot/src/js/scripts.js" defer></script>
 
     <title>EchoDot</title>
 </head>
@@ -53,6 +53,7 @@
                 </ul>
             </div>
         </div>
+
     </nav>
 
     <!-- Hero section -->
@@ -67,11 +68,34 @@
                     <div class="textTwo">
                         Tenha a Alexa em<br>qualquer ambiente.
                     </div>
-                    <div class="buttons-play">
-                        <button type="button" class="btn btn-primary">Conferir ofertas!</button>
+                    <div class="buttons-play ">
+
+                        <button type="button" id="open-modal" class="btn btn-primary">Conferir ofertas!</button>
+                        <div id="fade" class="hide"></div>
+                        <div id="modal" class="hide">
+                            <div class="modal-header">
+                                <h2> Confira</h2>
+                                <button type="buttons" id="closed-modal" class="btn btn-dark d-sm d-block">Fechar</button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum facilis libero
+                                    voluptate laboriosam accusamus esse, cumque doloribus blanditiis illum ratione
+                                    perferendis velit deleniti vero quibusdam, repellat eius laborum aliquid!</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum facilis libero
+                                    voluptate laboriosam accusamus esse, cumque doloribus blanditiis illum ratione
+                                    perferendis velit deleniti vero quibusdam, repellat eius laborum aliquid!</p>
+                            </div>
+
+                        </div>
+
+
+
                         <img src="/echoDot/assets/img/iconPlay.png" class="ms-2" width="46"></a>
                         <a class="textThree ms-2">Play Video</a>
+
                     </div>
+
+
                 </div>
 
                 <!-- Image -->
@@ -181,7 +205,7 @@
                         </div>
                     </div>
                     <!-- grid 2 -->
-                    <div class="col-md-6 discover-grid d-flex flex-column p-0 m-0 mt-5 mb-5 gap-4">
+                    <div class="col-md-6 discover-grid d-flex flex-column p-0 m-0 mt-5  gap-4">
                         <div class="discover-action d-flex">
                             <img src="/echoDot/assets/img/chat.png" width="28" height="28" alt="outlet">
                             <div class="ms-3">
@@ -219,7 +243,7 @@
             </div>
             <!-- img  -->
             <div class="col-md-5 discover-alexa">
-                <img src="/echoDot/assets/img/discover-alexa.png" class="w-100"   alt="discover-alexa">
+                <img src="/echoDot/assets/img/discover-alexa.png" class="w-100" alt="discover-alexa">
             </div>
 
         </div>

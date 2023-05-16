@@ -20,7 +20,7 @@
 </head>
 
 <body>
- 
+
     <!-- Navbar section-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
@@ -49,13 +49,14 @@
                     <li class="nav-item">
                         <a class="nav-link me-3" href="#">Ajuda</a>
                     </li>
-                    <button type="buttons" class="btn btn-primary d-sm d-block">Conferir ofertas!</button>
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#open-modal"
+                        class="btn btn-primary d-sm d-block">Conferir ofertas!</button>
                 </ul>
             </div>
         </div>
-      
+
     </nav>
-    
+
     <!-- Hero section -->
     <section class="hero">
         <div class="container">
@@ -68,30 +69,38 @@
                     <div class="textTwo">
                         Tenha a Alexa em<br>qualquer ambiente.
                     </div>
-                    <div class="buttons-play">
+                    <div class="buttons-play d-flex align-items-center">
+                        <div class="diver">
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#open-modal"
+                                class="btn btn-primary ">Conferir ofertas!</button>
 
-                        <button type="button" id="open-modal" class="btn btn-primary ">Conferir ofertas!</button>
-                        <div id="fade" class="hide"></div>
-                        <div id="modal"class="hide" >
-                            <div class="modal-header">
-                                <h2> Confira</h2>
-                                <button type="buttons" id="closed-modal" class="btn btn-dark d-sm d-block">Fechar</button>
+
+                            <!-- Modal -->
+                            <div id="open-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h2> Sobre Alexa</h2>
+                                            <button type="button" data-bs-dismiss="modal"
+                                                class="btn btn-danger d-sm d-block">Fechar</button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum
+                                                facilis libero voluptate laboriosam accusamus esse, cumque doloribus
+                                                blanditiis illum ratione perferendis velit deleniti vero quibusdam,
+                                                repellat
+                                                eius laborum aliquid!</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum
+                                                facilis libero voluptate laboriosam accusamus esse, cumque doloribus
+                                                blanditiis illum ratione perferendis velit deleniti vero quibusdam,
+                                                repellat
+                                                eius laborum aliquid!</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="modal-body">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum facilis libero voluptate laboriosam accusamus esse, cumque doloribus blanditiis illum ratione perferendis velit deleniti vero quibusdam, repellat eius laborum aliquid!</p>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum facilis libero voluptate laboriosam accusamus esse, cumque doloribus blanditiis illum ratione perferendis velit deleniti vero quibusdam, repellat eius laborum aliquid!</p>
-                                </div>
-                                
                             </div>
-                     
-
-
-                        <img src="/echoDot/assets/img/iconPlay.png" class="ms-2" width="46"></a>
-                        <a class="textThree ms-2">Play Video</a>
-
-                    </div>  
-
-                  
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Image -->
@@ -139,7 +148,6 @@
                 <img src="/echoDot/assets/img/house-alexa.png" alt="house-alexa"
                     class=" img-fluid w-100 mt-5 mb-5 house-alexa">
             </div>
-
             <div class=" col-md-12 stream-all">
                 <img src="/echoDot/assets/img/amazon-music.png" alt="amazon-music">
                 <img src="/echoDot/assets/img/apple-music.png" alt="apple-music">
@@ -156,7 +164,8 @@
             <div class="col-12 action-experencie">
                 <h1>Experimente por <span class="experencie-day">30 dias</span></h1>
                 <p>Se não gostar do produto, devolvemos seu dinheiro.</p>
-                <button type="button" class="btn btn-primary">Conferir ofertas!</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#open-modal"
+                    class="btn btn-primary d-sm d-block">Conferir ofertas!</button>
             </div>
         </div>
     </section>
@@ -239,7 +248,7 @@
             </div>
             <!-- img  -->
             <div class="col-md-5 discover-alexa">
-                <img src="/echoDot/assets/img/discover-alexa.png" class="w-100"   alt="discover-alexa">
+                <img src="/echoDot/assets/img/discover-alexa.png" class="w-100" alt="discover-alexa">
             </div>
 
         </div>
@@ -264,7 +273,8 @@
                         </div>
                     </div>
                     <div class="d-flex justify-content-center pt-4 mb-5 pb-5">
-                        <button type="buttons" class="btn btn-primary d-sm d-block">Conferir ofertas!</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#open-modal"
+                            class="btn btn-primary d-sm d-block">Conferir ofertas!</button>
                     </div>
                 </div>
             </div>
@@ -374,7 +384,7 @@
             </div>
         </footer>
     </section>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
         </script>
